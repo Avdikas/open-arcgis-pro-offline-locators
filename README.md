@@ -2,6 +2,7 @@
 
 Open offline geocoding locators for ArcGIS Pro, created from OpenStreetMap (OSM). 
 Datasets are published via Zenodo DOI and support full address matching for offline GIS workflows.
+Locator addresses are stored in the local language of each country.
 
 These locators support address matching including:
 
