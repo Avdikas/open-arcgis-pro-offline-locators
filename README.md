@@ -119,19 +119,20 @@ Locator datasets must **not** be presented as ESRI inc. products.
 
 # Disclaimer
 
-This project is not affiliated with ESRI inc.
-ArcGIS Pro requires a valid ESRI inc. license.  
-Generated LOC and LOZ files are ESRI proprietary format and require ESRI inc. software to create or use.
-Data accuracy depends on OpenStreetMap and other open datasets.  
-The author assumes no responsibility for geocoding errors or workflow results.
+- This project is not affiliated with ESRI inc.
+- ArcGIS Pro requires a valid ESRI inc. license.  
+- Generated LOC and LOZ files are ESRI proprietary format and require ESRI inc. software to create or use.
+- Data accuracy depends on OpenStreetMap and other open datasets.  
+- The author assumes no responsibility for geocoding errors or workflow results.
 
 ---
 
 # Support the project
 
-There are many subscription-based geocoding services, and free offline locators are rare or often nonexistent.
-These locators serve as a lifeline where no locators exist and provide a tangible alternative in places where commercial locators are available and open data quality is high.
-This project provides free, offline geocoding locators based on open data.
+- There are many subscription-based geocoding services, and free offline locators are rare or often nonexistent.
+- This project provides free, offline geocoding locators based on open data.
+- These locators serve as a lifeline where no locators exist and provide a tangible alternative in places where commercial locators are available and open data quality is high.
+
 If it helps your work, you can support future locator development here:
 
 Revolut: https://revolut.me/andriuqo9t
