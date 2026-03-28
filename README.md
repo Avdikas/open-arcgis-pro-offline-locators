@@ -36,6 +36,19 @@ Planned coverage expansion:
 This repository serves as the documentation hub for locator datasets published via Zenodo.
 
 ---
+# Support the project
+
+- There are many subscription-based geocoding services, and free offline locators are rare or often nonexistent.
+- This project provides free, offline geocoding locators based on open data.
+- These locators are a lifeline where none exist and a reliable alternative where commercial locators are available and open data is high-quality.
+
+If it helps your work, you can support future locator development here:
+
+Revolut: https://revolut.me/andriuqo9t
+
+Support is optional but helps expand locator coverage.
+
+---
 
 # Workflow overview
 
@@ -125,20 +138,6 @@ Locator datasets must **not** be presented as ESRI inc. products.
 - Generated LOC and LOZ files are ESRI proprietary format and require ESRI inc. software to create or use.
 - Data accuracy depends on OpenStreetMap and other open datasets.  
 - The author assumes no responsibility for geocoding errors or workflow results.
-
----
-
-# Support the project
-
-- There are many subscription-based geocoding services, and free offline locators are rare or often nonexistent.
-- This project provides free, offline geocoding locators based on open data.
-- These locators are a lifeline where none exist and a reliable alternative where commercial locators are available and open data is high-quality.
-
-If it helps your work, you can support future locator development here:
-
-Revolut: https://revolut.me/andriuqo9t
-
-Support is optional but helps expand locator coverage.
 
 ---
 
