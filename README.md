@@ -19,6 +19,17 @@ Designed specifically for **offline table geocoding workflows** in ArcGIS Pro an
 
 ---
 
+# Support the project
+
+- Many geocoding solutions are subscription-based, and free offline locators are rare.
+- This project provides free offline geocoding locators built from open data.
+- Building and maintaining these locators requires significant time and computing resources.  
+- If they are useful for your workflows, you can support future locator development here:
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-Support%20locator%20development-pink?style=for-the-badge)](https://revolut.me/andriuqo9t)
+
+---
+
 # Current coverage
 
 Available datasets:
@@ -34,19 +45,6 @@ Planned coverage expansion:
 - Oceania
 
 This repository serves as the documentation hub for locator datasets published via Zenodo.
-
----
-# Support the project
-
-- There are many subscription-based geocoding services, and free offline locators are rare or often nonexistent.
-- This project provides free, offline geocoding locators based on open data.
-- These locators are a lifeline where none exist and a reliable alternative where commercial locators are available and open data is high-quality.
-
-If it helps your work, you can support future locator development here:
-
-Revolut: https://revolut.me/andriuqo9t
-
-Support is optional but helps expand locator coverage.
 
 ---
 
