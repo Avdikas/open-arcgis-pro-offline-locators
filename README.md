@@ -121,7 +121,7 @@ Locator datasets must **not** be presented as Esri Inc. products.
 
 # Technical notes
 
-- Addresses are smartly extracted from OpenStreetMap nodes and streets, keeping street names, house numbers, cities, postal codes, and country information.
+- Addresses are extracted from OpenStreetMap nodes and streets, keeping street names, house numbers, cities, postal codes, and country information.
 - Street shapes are saved as lines, and house numbers along each street are interpolated for both sides of the road to create number ranges.
 - All addresses and streets are exported to GeoPackage files and then converted to ArcGIS Pro geodatabases.
 - LOC files include metadata, summaries, tags, and usage notes, making sure everything is properly documented.
