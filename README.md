@@ -132,7 +132,7 @@ Locator datasets must **not** be presented as ESRI inc. products.
 
 - There are many subscription-based geocoding services, and free offline locators are rare or often nonexistent.
 - This project provides free, offline geocoding locators based on open data.
-- These locators serve as a lifeline where no locators exist and provide a tangible alternative in places where commercial locators are available and open data quality is high.
+- These locators are a lifeline where none exist and a reliable alternative where commercial locators are available and open data is high-quality.
 
 If it helps your work, you can support future locator development here:
 
