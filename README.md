@@ -115,7 +115,7 @@ Attribution must be preserved:
 
 © OpenStreetMap contributors
 
-Locator datasets must **not** be presented as ESRI inc. products.
+Locator datasets must **not** be presented as Esri Inc. products.
 
 ---
 
@@ -131,9 +131,9 @@ Locator datasets must **not** be presented as ESRI inc. products.
 
 # Disclaimer
 
-- This project is not affiliated with ESRI inc.
-- ArcGIS Pro requires a valid ESRI inc. license.  
-- Generated LOC and LOZ files are ESRI proprietary format and require ESRI inc. software to create or use.
+- This project is not affiliated with Esri Inc.
+- ArcGIS Pro requires a valid Esri Inc. license.  
+- Generated LOC and LOZ files are Esri Inc. proprietary format and require Esri Inc. software to create or use.
 - Data accuracy depends on OpenStreetMap and other open datasets.  
 - The author assumes no responsibility for geocoding errors or workflow results.
 
