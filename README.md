@@ -34,11 +34,14 @@ Designed specifically for **offline table geocoding workflows** in ArcGIS Pro an
 
 Available datasets:
 
-- Europe (Zenodo DOI coming soon)
+Regional geolocator datasets are archived on Zenodo and can be downloaded here:
+
+[![Locators Europe](https://img.shields.io/badge/Locators-Europe-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19282045)
+
+[![Locators North America](https://img.shields.io/badge/Locators-North%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19457691)
 
 Planned coverage expansion:
 
-- North America
 - South America
 - Asia
 - Africa
