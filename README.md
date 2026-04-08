@@ -40,6 +40,8 @@ Regional geolocator datasets are archived on Zenodo and can be downloaded here:
 
 [![Locators North America](https://img.shields.io/badge/Locators-North%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19457691)
 
+[![Locators Central America](https://img.shields.io/badge/Locators-Central%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19475229)
+
 Planned coverage expansion:
 
 - South America
