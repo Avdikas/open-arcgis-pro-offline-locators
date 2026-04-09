@@ -40,13 +40,14 @@ Regional geolocator datasets are archived on Zenodo and can be downloaded here:
 
 [![Locators North America](https://img.shields.io/badge/Locators-North%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19457691)
 
+[![Locators Central America](https://img.shields.io/badge/Locators-Central%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19475229)
+
 [![Locators South America](https://img.shields.io/badge/Locators-South%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19480756)
 
-[![Locators Central America](https://img.shields.io/badge/Locators-Central%20America-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19475229)
+[![Locators Africa](https://img.shields.io/badge/Locators-Africa-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19480842)
 
 Planned coverage expansion:
 
-- Africa
 - Asia
 - Oceania
 
