@@ -48,9 +48,7 @@ Regional geolocator datasets are archived on Zenodo and can be downloaded here:
 
 [![Locators Asia](https://img.shields.io/badge/Locators-Asia-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19496593)
 
-Planned coverage expansion:
-
-- Oceania
+[![Locators Australia and Oceania](https://img.shields.io/badge/Locators-Australia%20and%20Oceania-blue?style=for-the-badge&logo=zenodo)](https://doi.org/10.5281/zenodo.19501614)
 
 This repository serves as the documentation hub for locator datasets published via Zenodo.
 
