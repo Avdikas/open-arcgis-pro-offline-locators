@@ -56,12 +56,12 @@ This repository serves as the documentation hub for locator datasets published v
 
 # Workflow overview
 
-The locator build pipeline is a fully automated, production-grade geospatial **ETL** system designed for global-scale offline geocoding in **ArcGIS Pro** ecosystem.
+The locator build pipeline is a fully automated, production-grade geospatial **ETL** system designed for global-scale offline geocoding in **ArcGIS Pro** environment.
 
-The architecture is modular and consists of four core stages: data ingestion, spatial transformation, geospatial enrichment, and locator deployment. This design ensures full reproducibility, scalability, and consistent OpenStreetMap (**OSM**)-based address coverage.
+The architecture is modular and consists of four core stages: data ingestion, spatial transformation, geospatial enrichment, and locator deployment. This design ensures full reproducibility, scalability, and consistent **OpenStreetMap** (**OSM**)-based address coverage.
 
 1. Data ingestion (**OSM PBF** parsing).
-OpenStreetMap **PBF** datasets are processed using `osmium`, to extract raw address entities, street geometries, and associated metadata.
+**OpenStreetMap** (**.PBF** format) datasets are processed using `osmium` to extract raw address entities, street geometries, and associated metadata.
 
 3. Spatial data standardisation (**GeoPackage** generation).
 Extracted features are normalised and converted into **GeoPackage** format using `fiona` and `shapely`, ensuring geometry consistency and **WGS84** coordinate integrity.
@@ -80,7 +80,7 @@ Final **ArcGIS Pro** locators (**.LOC/.LOZ** formats) are generated using the **
 
 The entire **ETL** pipeline operates in an iterative, file-by-file processing mode, enabling scalable execution across large geospatial datasets without requiring full dataset loading into memory.
 
-This system is designed as a scalable geospatial processing pipeline for generating production-ready offline geocoding datasets from global OpenStreetMap coverage.
+The pipeline produces offline geocoding datasets and generates final **ArcGIS** locator files (**.LOC/.LOZ**) for **table geocoding** workflows in **ArcGIS Pro**.
 
 Environment:
 
@@ -90,8 +90,6 @@ Environment:
 Libraries used:
 
 `osmium`, `shapely`, `fiona`, `geopandas`, `arcpy`, `tqdm`
-
-This workflow ensures fully automated generation of address locators suitable for **table geocoding**.
 
 ---
 
