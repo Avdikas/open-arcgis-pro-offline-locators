@@ -80,6 +80,8 @@ Final **ArcGIS Pro** locators (**.LOC/.LOZ** formats) are generated using the **
 
 The entire **ETL** pipeline operates in an iterative, file-by-file processing mode, enabling scalable execution across large geospatial datasets without requiring full dataset loading into memory.
 
+This system is designed as a scalable geospatial processing pipeline for generating production-ready offline geocoding datasets from global OpenStreetMap coverage.
+
 Environment:
 
 - Python 3.13.7  
