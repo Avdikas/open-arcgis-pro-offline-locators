@@ -56,14 +56,29 @@ This repository serves as the documentation hub for locator datasets published v
 
 # Workflow overview
 
-The locator build pipeline:
+The locator build pipeline is a fully automated, production-grade geospatial **ETL** system designed for global-scale offline geocoding in **ArcGIS Pro** ecosystem.
 
-1. **OSM PBF** -> extract addresses and streets with `osmium`  
-2. Convert data to **GeoPackage** using `fiona` and `shapely`  
-3. Interpolate house number ranges along streets using Python logic  
-4. Add postal codes, region/subregion hierarchy using `geopandas` + spatial join  
-5. Export **GeoPackage -> File Geodatabase** using `arcpy`  
-6. Generate **LOC file** for ArcGIS Pro, with metadata filled  
+The architecture is modular and consists of four core stages: data ingestion, spatial transformation, geospatial enrichment, and locator deployment. This design ensures full reproducibility, scalability, and consistent OpenStreetMap (**OSM**)-based address coverage.
+
+1. Data ingestion (**OSM PBF** parsing).
+OpenStreetMap **PBF** datasets are processed using `osmium`, to extract raw address entities, street geometries, and associated metadata.
+
+3. Spatial data standardisation (**GeoPackage** generation).
+Extracted features are normalised and converted into **GeoPackage** format using `fiona` and `shapely`, ensuring geometry consistency and **WGS84** coordinate integrity.
+
+4. Address intelligence and interpolation engine.
+A custom geocoding engine interpolates house number ranges along street segments, generating complete left and right side address coverage and forming continuous addressable networks.
+
+5. Spatial enrichment and administrative integration.
+Features are enriched using `geopandas` spatial joins, integrating postal codes and hierarchical administrative boundaries (region/subregion structures) into a unified address model.
+
+6. **File Geodatabase** conversion layer.
+Processed **GeoPackage**  datasets are converted into **File Geodatabase** using **ArcGIS Pro** `arcpy`, for native compatibility with the **ArcGIS Pro** geocoding framework.
+
+7. Locator synthesis and metadata generation.
+Final **ArcGIS Pro** locators (**.LOC/.LOZ** formats) are generated using the **ArcGIS Pro** locator engine with automated metadata injection, including language codes, country codes, and usage constraints.
+
+The entire **ETL** pipeline operates in an iterative, file-by-file processing mode, enabling scalable execution across large geospatial datasets without requiring full dataset loading into memory.
 
 Environment:
 
